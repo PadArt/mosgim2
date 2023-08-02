@@ -22,7 +22,7 @@ def plot2l(out_file, colat, lon, ts, frames1, frames2):
 
     m1 = np.max(np.array(frames1))    
     m2 = np.max(np.array(frames2))    
-    m3 = np.max(np.array(frames1) + np.array(frames1))    
+    m3 = np.max(np.array(frames1) + np.array(frames2))    
 
     levels1=np.arange(-0.5,m1,0.5)
     levels2=np.arange(-0.5,m2,0.5)
