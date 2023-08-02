@@ -2,17 +2,17 @@ from numpy import deg2rad as rad
 
 # MosGIM configuration
 #[PATHS]
-data_path = '/home/teufel/PycharmProjects/tec-suite/tec/2017/002/'
-res_path = '/home/teufel/PycharmProjects/mosgim2-dev/'
+data_path = <INPUT DATA DIR>
+res_path = <RES DIRECTORY>
 
 #[GENERAL]
-nworkers = 2 # number of cpu cores you are able to use
+nworkers = 1 # number of cpu cores you are able to use
 
 
 #[PREPARE]
-coords = 'geo'  # type of coordinates to use, can be [mag, geo, modip]
-nlayers = 1 # number of layers in model 1 or 2, nevertheless provide both shell heights 
-IPPh_layer1 = 450000. # schell height of first layer [m]
+coords = 'mag'  # type of coordinates to use, can be [mag, geo, modip]
+nlayers = 2 # number of layers in model 1 or 2, nevertheless provide both shell heights 
+IPPh_layer1 = 300000. # schell height of first layer [m]
 IPPh_layer2 = 750000. # schell height of second layer [m]
 el_cutoff = rad(10.) # elevation cutoff for GNSS satellites [deg]
 maxgap=35. # maximum gap in data to start new continous TEC arch [sec]
