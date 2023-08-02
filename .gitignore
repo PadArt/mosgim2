@@ -29,7 +29,7 @@ MANIFEST
 
 
 # hdf data files and plots
-
+*.zip
 *.hdf5
 *.h5
 *.gif
