@@ -1,0 +1,7 @@
+Cartopy==0.0.0
+h5py==3.1.0
+lemkelcp==0.1
+matplotlib==2.1.1
+numpy==1.13.3
+scipy==0.19.1
+pyIGRF==0.3.3

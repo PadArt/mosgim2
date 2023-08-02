@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If MosGIM2 contributes to a project that leads to a scientific publication, please acknowledge this fact by citing"
+authors:
+- family-names: "Padokhin"
+  given-names: "Artem"
+  orcid: "https://orcid.org/0000-0002-0190-2140"
+- family-names: "Vesnin"
+  given-names: "Artem"
+  orcid: "https://orcid.org/0000-0001-8907-2710"
+title: "MosGIM2"
+date-released: 2023-07-18
+url: "https://github.com/PadArt/mosgim2/"
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "Padokhin"
+    given-names: "Artem"
+    orcid: "https://orcid.org/0000-0002-0190-2140"
+  - family-names: "Andreeva"
+    given-names: "Elena"
+  - family-names: "Nazarenko"
+    given-names: "Marina"
+  - family-names: "Kalashnikova"
+    given-names: "Svetlana"
+  doi: "10.1007/s11141-023-10230-6"
+  journal: "Radiophysics and Quantum Electronics"
+  date-published: 2023-04-22
+  start: 481 # First page number
+  end: 495 # Last page number
+  title: "Phase-Difference Approach for GNSS Global Ionospheric Total Electron Content Mapping"
+  issue: 7
+  volume: 65
+  year: 2023
+
