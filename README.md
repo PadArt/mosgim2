@@ -28,9 +28,11 @@ Test data is the output data (in TXT format) from the [`tec-suite`](https://gith
 
     recFields = 'datetime, sat.x, sat.y, sat.z, tec.l1l2'
 
+You can download test dataset obtained with `tec-suite` for approximately 300 IGS stations and suitable to use with MosGIM2 via this [link](http://atm007-3.phys.msu.ru/gggimm/2017-002.zip) 
+
 ## Run processing
 
-Set necessary parameters in `config.py`, generally you need to adjust `data_path` to the directory, where you have input data, and `res_path` to store results in HDF5 format. All other parameters are explained in comments and could be left as provided for running test example.
+Set necessary parameters in `config.py`. Unzip test dataset to `data_path` directory, and adjust `res_path` to the directory where you wish to store results in HDF5 format. All other parameters are explained in comments and could be left as provided for running test example.
 
 If you want to work in modip coordinates, you need to generate file `modip.npz` with the grid of modip latitudes. Use `modip.py` script for it, arguments are year and altitude in kilometeres. Such file for year=2017 and alt=300km is provided within repo. 
 
