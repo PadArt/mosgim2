@@ -27,8 +27,8 @@ mbig_layer1 = 15  # max degree of spherical harmonic expansion in first layer (0
 nbig_layer2 = 10  # max order of spherical harmonic expansion in second layer
 mbig_layer2 = 10  # max degree of spherical harmonic expansion in second layer (0 <= mbig <= nbig)
 tint = 24 # number of time intervals per day 
-sigma0 = 0.1  # TECu - measurement noise at zenith 
-sigma_v = 0.015  # TECu - allowed variability for each coef between two consecutive maps (0.03 TECu by Shaer for dt=2h and 149 coeffs)
+sigma0 = 0.5  # TECu - uncertainty of observations relative to model 
+sigma_v = 0.02  # TECu - allowed variability for each coef between two consecutive maps (0.03 TECu by Shaer for dt=2h and 149 coeffs)
 linear = True # assumes piecewise linear interpolation between time nodes, if false piecewise constant interpolation
 lcp = True # impose positivity constrains for TEC in each layer by solving LCP 
 
