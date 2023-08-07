@@ -107,7 +107,7 @@ def process_intervals(data, maxgap=35., maxjump=3., el_cutoff=rad(10.), derivati
             continue
         ind_sparse = (tt[start:fin] % sparse == 0)
         data_sample = data[start:fin]
-        data_sample['tec'] = savgol_filter(data_sample['tec'][:], 61, 2)
+#       TODO need some reasonable filtering here to remove small scale fluctuations
         data_sample = data_sample[ind_sparse]
 
         if derivative == True:
