@@ -12,8 +12,8 @@ nworkers = 1 # number of cpu cores you are able to use
 #[PREPARE]
 coords = 'mag'  # type of coordinates to use, can be [mag, geo, modip]
 nlayers = 2 # number of layers in model 1 or 2, nevertheless provide both shell heights 
-IPPh_layer1 = 300000. # schell height of first layer [m]
-IPPh_layer2 = 750000. # schell height of second layer [m]
+IPPh_layer1 = 300000. # shell height of first layer [m]
+IPPh_layer2 = 750000. # shell height of second layer [m]
 el_cutoff = rad(10.) # elevation cutoff for GNSS satellites [rad]
 maxgap=35. # maximum gap in data to start new continous TEC arch [sec]
 maxjump=1. # maximum TEC jump to start new continous TEC arch [TECu]
