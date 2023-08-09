@@ -28,7 +28,7 @@ Test data is the output data (in TXT format) from the [`tec-suite`](https://gith
 
     recFields = 'datetime, sat.x, sat.y, sat.z, tec.l1l2'
 
-You can download test dataset obtained with `tec-suite` for approximately 300 IGS stations and suitable to use with MosGIM2 via this [link](http://atm007-3.phys.msu.ru/gggimm/2017-002.zip) 
+You can download test dataset obtained with `tec-suite` for approximately 300 IGS stations and suitable to use with MosGIM2 via this [link](http://atm007-3.phys.msu.ru/gggimm/2017-002.zip) Note that you can alter list of stations to work with in /mosgim2/data/tec_prepare.py. Observations (rinex files) from the very same set of stations should be downloaded from one of the IGS datacenters and processed with `tec-suite`, please refer to `tec-suite` manual for more information.
 
 ## Run processing
 
